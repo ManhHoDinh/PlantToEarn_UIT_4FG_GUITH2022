@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import Poster from './Poster';
 import {IMG_Post1} from '../../assets/images';
 import {Icon_Auth} from '../../assets/icons';
-
+import BottomNavigation from '../../routes/BottomNavigation';
 export default class News extends Component {
   render() {
     return (
@@ -54,5 +54,8 @@ const styles = {
   },
   Post: {
     height: 600,
+  },
+  bottom: {
+    height: 100,
   },
 };
